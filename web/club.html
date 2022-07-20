@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            min-height: 100vh;
+
+            /* font-family: "Open Sans", sans-serif; */
+            font-size: .9375rem;
+            font-weight: 300;
+            line-height: 1.9;
+            color: #757575;
+            text-align: left;
+            background-color: #fff;
+            margin: 0px 0px;
+            padding: 0px 0px;
+        }
+
+        .left img {
+            position: absolute;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            z-index: -100;
+            /* overflow: hidden; */
+        }
+
+        .mid {
+            border: 2px solid;
+            display: block;
+            width: 98%;
+            margin-left: 0%;
+            padding: 0px;
+        }
+        .navbar {
+            background-color:rgb(156, 164, 164);;
+            border-radius: 3px;
+            margin:-17px -29px;
+        }
+
+        .navbar li {
+            float: right;
+            list-style: none;
+            margin: 10px 28px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        
+
+      
+        .navbar li a {
+            color: black;
+            padding: 17px 20px;
+            text-decoration: none;
+
+
+        }
+
+        .navbar li a:hover {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        .container {
+            display: inline-block;
+            position: absolute;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            left: 43%;
+            top: 183px;
+        }
+
+        .container img {
+            height: 225px;
+            width: 225px;
+        }
+
+        .display {
+            top: 23px;
+        }
+
+        .display h1 {
+            display: block;
+            text-align: center;
+            margin: 315px;
+
+        }
+
+        .head1 {
+            display: block;
+            text-align: center;
+            margin: 23px;
+
+
+            padding: 24px;
+
+        }
+
+        .head1 p {
+            display: block;
+            font-family: cursive;
+            margin: 63px;
+            /* padding: 100px; */
+            padding-top: 0px;
+            padding-left: 38px;
+            line-height: 1.9;
+
+            font-weight: 300;
+            font-size: medium;
+
+            color: rgb(73, 42, 42);
+        }
+        footer{
+            border: 2px solid red;
+            display: flex;
+            background-color: black;
+            padding: 40px 8px;
+            box-sizing: border-box;
+
+        }
+        .socialmedia{
+            /* text-align: center; */
+            padding: 5px;
+                
+        }
+        .socialmedia a{
+            font-size: 24px;
+            color:inherit;
+            border:1px solid cornsilk;
+            height: 40px;
+            width:40px;
+            line-height: 38px;
+            display:inline-block;
+            text-align: center;
+            border-radius:50%;
+            margin: 0px 8px;
+            opacity: 0.75;
+            transition: all 0.3 linear;
+
+        }
+        .socialmedia a :hover{
+            transform: scale(1.4);
+
+        }
+       .mail{
+            color:red;
+        }
+        .contact a{
+            text-decoration: none;
+           
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img1.jpg" alt="">
+            <div class="mid">
+                <nav class="navbar">
+
+                    <ul>
+                        <li><a href="#">Resources</a> </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About us</a></li>
+        
+        
+                        <li> <a href="#">Home</a></li>
+        
+                    </ul>
+                </nav>
+        </div>
+        <div class="container">
+            <img src="https://www.iitg.ac.in/stud/gymkhana/technical/assets/img/resources/RoboticsClubLogo.png" alt="">
+
+        </div>
+        <div class="display">
+            <h1> Robotics Club</h1>
+            <div>
+
+                <a href="#About us " class="scrolld"></a>
+            </div>
+            <!-- <div class="p"> -->
+
+
+
+            <!-- </div> -->
+        </div>
+    </header>
+    <header class="head1">
+        <h1>
+            About Us
+        </h1>
+
+        <p>
+            The mission of IIT Kanpur Robotics Club is to unite students in an
+            educational environment and provide students a place to pursue their interest in mechanical,
+            electronic, and software design by working on large and small scale
+            robotics projects. Having said that we take pride in talking about our projects, be it
+            autonomous bots, humanoids, swarm of tiny robots, robotic arms or aerial vehicles, we
+            haven't left any stone unturned. However, the club provides
+            much more than just technical growth to its members, from team-building to cooperation, from
+            perseverance to sincerity, the club teaches you a myriad of interpersonal skills essential
+            in daily life. The club is open to students
+            with or without experience because, believe it or not, none of us had any idea of robotics
+            when we first stepped into the club room, neither do we expect anything from you. You just
+            need to show up and the club and its people will
+            take care of the rest. The club's environment perpetuates the sharing of wisdom and
+            experience amongst our members. We cater to every individual who ever wanted to design their
+            own circuit and control their own bot. All we need
+            from you is enthusiasm!
+        </p>
+    </header>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <footer>
+        <div class="maincontent">
+             
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/roboclubiitkanpur/" class="fac" target="_blank" style="color: #1877f2"><ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="mailto:roboticsclubiitkanpur@gmail.com"   class="mail"target="_blank" style="color:#a6b1b7; "><ion-icon name="mail-outline"></ion-icon>
+                </a>
+                <a href="https://www.youtube.com/channel/UCWM9ZaOmev5otSwQqW3JICA" class="youtube" target="_blank" style="color: red;"><ion-icon name="logo-youtube"></ion-icon>
+                </a>
+               
+                
+                  
+            </div>
+            <div class="text">
+                Designed by Vivek Yadav 
+            </div>
+            <div>
+                
+              © 2021 Robotics Club, IIT Kanpur
+            </div>
+            <br>
+            <div class="contact"></div>
+                <a href="tel:9005033846" style="color: #757575; text-decoration: none;">CONTACT </a>
+            </div>
+        </div>
+    </footer>
+</body>
